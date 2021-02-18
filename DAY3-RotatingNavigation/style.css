@@ -16,22 +16,22 @@ body {
   background-color: #fafafa;
   transform-origin: top left;
   transition: tranform 0.5s linear;
-  width: :100vw;
+  width: 100vw;
   min-height: 100vh;
-  padding : 50px;
+  padding: 50px;
 }
 
 .container.show-nav {
   transform: rotate(-20deg);
 }
 
-.circle-container{
+.circle-container {
   position: fixed;
   top: -100px;
   left: -100px;
 }
 
-.circle{
+.circle {
   background-color: #ff7979;
   height: 200px;
   width: 200px;
@@ -40,27 +40,27 @@ body {
   transition: transform 0.5s linear;
 }
 
-.circle button{
+.circle button {
   position: absolute;
   top: 50%;
   left: 50%;
   height: 100px;
-  border:0;
+  border: 0;
   background: transparent;
   font-size: 26px;
   color: #fff;
 }
 
-.circle button:focus{
+.circle button:focus {
   outline: none;
 }
 
-.circle button#open{
-  left:60%;
+.circle button#open {
+  left: 60%;
 }
 
-.circle button#close{
-  top:60%;
+.circle button#close {
+  top: 60%;
   transform: rotate(90deg);
   transform-origin: top left;
 }
